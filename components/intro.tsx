@@ -39,7 +39,7 @@ const Intro = () => {
       speed={50}
       style={{ fontSize: '1.8rem', display: 'inline-block' }}
       repeat={Infinity}
-      className=' font-bold bg-gradient-to-r from-gray-500 to-gray-950 text-transparent bg-clip-text h-[5rem] px-[3.5rem] sm:p-[initial] sm:h-[initial]'
+      className='font-bold bg-gradient-to-r from-gray-500 to-gray-950 text-transparent bg-clip-text h-[5rem] px-[3.5rem] sm:p-[initial] sm:h-[initial]'
     />
             </div>
         </motion.div>

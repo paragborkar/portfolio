@@ -61,18 +61,20 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "PizzaApp",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: pizza,
+      "Razorpay payment gateway integration. Forgot password feature with OTP verification using NodeMailer.",
+    tags: ["React.js", "Express", "MongoDB", "SASS", "Node.js","Redux"],
+    imageUrl: pizza, 
+    link: "https://pizzaapp-th4d.onrender.com/",
   },
   {
-    title: "rmtDev",
+    title: "BlogApp",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "FullStack Application with basic CRUD operations on Blog Posts. User can upload,delete and edit posts.",
+    tags: ["React", "Express", "MongoDB", "Material UI", "Redux", "Node.js"],
     imageUrl: blog,
+    link: "https://mern-blogsapp.onrender.com",
   },
 ] as const;
 

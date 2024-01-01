@@ -20,7 +20,9 @@ const Intro = () => {
         transition={{
             delay: 0.3,
           }}
-        className='flex items-center justify-center w-full'>
+        className='flex items-center justify-center w-full'
+        id='home'
+        >
             <div className='flex items-center justify-center flex-col pt-[6rem]'>
                 <Image  src={profile} alt='Profile' width={192} height={192} quality={100} priority={true} 
                 className='h-28 w-28 rounded-full border-[0.10rem] border-black shadow-xl'

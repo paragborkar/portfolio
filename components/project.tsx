@@ -6,12 +6,13 @@ import {motion} from 'framer-motion';
 
 const Projects = () => {
   return (
-    <motion.section className='mt-[10vh]'
+    <motion.section className='mt-[10vh] scroll-mt-28'
     initial={{opacity:0,y:100}}
     animate={{opacity:1 , y:0}}
     transition={{
         delay: 0.7,
       }}
+      id='projects' 
     >
         <h2  className='text-3xl font-medium capitalize text-center mb-[5vh]'>Projects</h2>
         <div>
@@ -40,9 +41,9 @@ function Project(
         link,
     }:ProjectProps) {
     return(
-   <section className='group bg-gray-300 max-w-[45rem] border border-black/5 overflow-hidden sm:pr-8 relative h-[35vh] sm:h-[20rem]
+   <section className='group bg-gray-300 max-w-[45rem] border border-black/5 overflow-hidden sm:pr-8 relative h-auto sm:h-[20rem]
    mb-3 sm:mb-8  last:mb-0 sm:even:pl-8 rounded-md
-   '>
+   ' >
         <div className='pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10 
         sm:max-w-[50%] flex flex-col h-full 
         sm:group-even:ml-[18rem]'>

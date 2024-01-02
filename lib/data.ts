@@ -1,6 +1,6 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
+// import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import pizza from "@/public/pizza.png";
 import blog from "@/public/blog.jpg";
@@ -34,28 +34,28 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "BCA Grad",
+    location: "Nagpur, Maharashtra",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I am pursuing my graduation at Dr.Ambedkar College, Deekshabhoomi,  Nagpur",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2021-24",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Full Stack Developer",
+    location: "Remote",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I worked as a Full Stack Developer at Across The Globe(ATG). Worked on MERN stack for 6 months.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "9/22-2/23",
   },
   {
     title: "Full-Stack Developer",
-    location: "Houston, TX",
+    location: "Remote",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "I worked as a Full Stack Developer at Sortwind Pvt Ltd. I have worked on MERN stack for 6 months. Converted various figma design in working code.",
+    icon: React.createElement(CgWorkAlt),
+    date: "3/23-9/23",
   },
 ] as const;
 

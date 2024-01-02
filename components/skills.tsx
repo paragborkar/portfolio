@@ -17,12 +17,13 @@ const Skills = () => {
     }
 
   return (
-    <motion.section className='mb-28 max-w-[53rem] scroll-mt-28 text-center sm:mb-40 '
+    <motion.section className='mb-28 max-w-[53rem] scroll-mt-28 text-center sm:mb-15 '
     initial={{opacity:0,y:100}}
     animate={{opacity:1 , y:0}}
     transition={{
         delay: 0.9,
       }}
+      id=''
     >
         <h2  className='text-3xl font-medium capitalize text-center mb-[5vh] mt-[7vh]'>Skills</h2>
         <ul className='flex flex-wrap justify-center gap-2 text-lg text-gray-800 ' >

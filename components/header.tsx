@@ -7,7 +7,7 @@ import Link from 'next/link';
 const Header = () => {
   return (
     <header className="z-[999] relative " >
-        <motion.div className="flex fixed top-[0.15rem] left-1/2 h-12 -translate-x-1/2 py-2 sm:top-[1.7rem] sm:h-[initial] sm:py-0" initial={{y:-100 ,x:"-50%" , opacity:0}}
+        <motion.div className="flex fixed top-[2rem] left-1/2 h-12 -translate-x-1/2 py-2 sm:top-[1.7rem] sm:h-[initial] sm:py-0" initial={{y:-100 ,x:"-50%" , opacity:0}}
         animate={{y:0,x:"-50%" , opacity:1}}
         transition={{
             delay: 0.1,

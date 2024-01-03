@@ -4,7 +4,7 @@ import { FaPaperPlane } from 'react-icons/fa';
 const Contact = () => {
   return (
     <section id='contact'
-    className='w-[min(100%,38rem)] max-w-[53rem] scroll-mt-28 text-center sm:mb-15'
+    className='w-[min(100%,38rem)] max-w-[53rem] scroll-mt-28 text-center mb-4'
     >
         <h2  className='text-3xl font-medium capitalize text-center mb-[5vh]'>Contact</h2>
         <p>Please contact me directly at <a className='underline' href='mailto:paragborkar200@gmail.com' >paragborkar200@gmail.com</a> or through this form.</p>

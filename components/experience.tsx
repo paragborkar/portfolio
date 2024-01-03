@@ -9,7 +9,7 @@ import {
 
 const Experience = () => {
   return (
-    <section id='experience' >
+    <section id='experience' className='mb-28 max-w-[53rem] scroll-mt-28 text-center sm:mb-15' >
          <h2  className='text-3xl font-medium capitalize text-center mb-[5vh]'>Experience</h2>
          <VerticalTimeline lineColor='' >
                 {

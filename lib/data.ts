@@ -55,7 +55,7 @@ export const experiencesData = [
     description:
       "I worked as a Full Stack Developer at Sortwind Pvt Ltd. I have worked on MERN stack for 6 months. Converted various figma design in working code.",
     icon: React.createElement(CgWorkAlt),
-    date: "8/23-2/23",
+    date: "8/23-2/24",
   },
 ] as const;
 

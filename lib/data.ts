@@ -34,28 +34,20 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "BCA Grad",
+    title: "MCA",
     location: "Nagpur, Maharashtra",
     description:
-      "I am pursuing my graduation at Dr.Ambedkar College, Deekshabhoomi,  Nagpur",
+      "I am pursuing my post graduation at Ramdeobaba University, Katol Raod,  Nagpur",
     icon: React.createElement(LuGraduationCap),
-    date: "2021-24",
-  },
-  {
-    title: "Full Stack Developer",
-    location: "Remote",
-    description:
-      "I worked as a Full Stack Developer at Across The Globe(ATG). Worked on MERN stack for 6 months.",
-    icon: React.createElement(CgWorkAlt),
-    date: "12/22-5/23",
+    date: "2024-26",
   },
   {
     title: "Full-Stack Developer",
     location: "Remote",
     description:
-      "I worked as a Full Stack Developer at Sortwind Pvt Ltd. I have worked on MERN stack for 6 months. Converted various figma design in working code.",
+      "I worked as a Full Stack Developer at Sortwind Pvt Ltd. I have worked on MERN stack for 3 months. Converted various figma design in working code.",
     icon: React.createElement(CgWorkAlt),
-    date: "8/23-2/24",
+    date: "3/6/23-12/9/23",
   },
 ] as const;
 
